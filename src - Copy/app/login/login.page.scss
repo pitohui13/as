@@ -1,0 +1,45 @@
+ion-content::part(background) {
+    background-image: linear-gradient(120deg, #e40909 0%, #f8faf8 100%);
+  }
+  .logo{
+    width: 140px;
+    position: absolute;
+    top: 20px;
+    left: 120px;
+    font-size: 18px;
+    }
+    
+#Email{
+  position: relative;
+  --border-color: black;
+  --border-radius: 20px;
+  --border-width: 1px;
+  --box-shadow: 2px gray;
+  --highlight-height: 0;
+  --background: #f8f9fa;
+  margin-left:15px ;
+  color:black;
+  top: 50px;
+height:50px ;
+}
+#pass{
+  position: relative;
+  --border-color: black;
+  --border-radius: 20px;
+  --border-width: 1px;
+  --box-shadow: 2px gray;
+  --highlight-height: 0;
+  --background: #f8f9fa;
+  margin-left:15px ;
+  color:black;
+  top:250px;
+height:50px ;
+}
+.login{
+  position: relative;
+  width: 345px;
+  
+  top:300px;
+     
+  font-size: 15px;
+   }
