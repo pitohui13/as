@@ -65,6 +65,9 @@ ion-content{
             .imageThumbnail{
                 width: 60px;
                 height:60px;
+                border-radius: 50%;
+                border: 2px solid #fff;
+                margin-right: 20px imo !important;
                 
             }
         }
@@ -97,7 +100,7 @@ ion-content{
             margin-top: 10px;
         }
         p{
-            margin-top: 20px;
+           
             font-size: 25px;
             font-weight: bold;
         }
@@ -123,7 +126,7 @@ ion-content{
             margin-top: 10px;
         }
         p{
-            margin-top: 20px;
+           
             font-size: 25px;
             font-weight: bold;
         }
@@ -157,6 +160,9 @@ ion-content{
             height: 150px;
             padding: 20px;
             img{
+                width: 60px;
+                height: 60px;
+                margin-top: 10px;
                 display: block;
                 margin-left: auto;
                 margin-right: auto;
