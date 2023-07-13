@@ -26,6 +26,9 @@ export class LoginPage implements OnInit {
   login() {
     this.router.navigate(['dashboard']);
   }
+  login2() {
+    this.router.navigate(['dashboard2']);
+  }
   /*print() {
     console.log(this.form);
   }*/

@@ -23,6 +23,14 @@ const routes: Routes = [
     path: 'studentlist',
     loadChildren: () => import('./studentlist/studentlist.module').then( m => m.StudentlistPageModule)
   },
+  {
+    path: 'dashboard2',
+    loadChildren: () => import('./dashboard2/dashboard2.module').then( m => m.Dashboard2PageModule)
+  },
+  {
+    path: 'components',
+    loadChildren: () => import('./dashboard2/dashboard2.module').then( m => m.Dashboard2PageModule)
+  },
   
  
 ];

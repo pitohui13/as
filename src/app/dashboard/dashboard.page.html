@@ -5,8 +5,6 @@
     </ion-toolbar>
   </ion-header>
   <ion-content > <ion-menu-toggle>
-    <ion-button  class="menu-content" [routerLink]="['/home']" color="success">Class</ion-button>
-    <ion-button  class="menu-content" [routerLink]="['/studentlist']" color="success">Studentlist</ion-button>
     <ion-button  class="menu-content" [routerLink]="['/home']" color="success">Sign out</ion-button>
     
   </ion-menu-toggle></ion-content>
@@ -23,26 +21,18 @@
     </ion-toolbar>
   </ion-header>
   <ion-content class="ion-padding">
-    <ion-card class="card">
-      <ion-card-header>
-        <ion-card-title> <img src="assets\boy.png" /></ion-card-title>
-        
-      </ion-card-header>
-    
-      <ion-card-content>
-        Here's a small text description for the card content. Nothing more, nothing less.
-      </ion-card-content>
-    </ion-card> 
     <div class="top">
+      <div >
+        <img class="ImageThumbnail" src="../../../assets/me1.png" />
+        <img class="background" src="assets\images1.jpeg" alt="">
+    </div>
       <div class="nameText">
-          <p>hi <span>Kirk</span></p>
+          <p> <span>Kirk Jason Intac</span></p>
           <h6>Class IT-3305</h6>
-          <small>2023-2024</small>
+          <small>SY: 2023-2024</small>
       </div>
 
-      <div class="ImageThumbnail">
-          <img src="../../../assets/me.jpg" />
-      </div>
+      
     </div>
     <div class="middleBox">
         <div class="firstDiv">
@@ -53,45 +43,12 @@
         <div class="secondDiv">
           <img src="../../../assets/check.png">
           <p>Enrolled</p>
-          <h6>Classes</h6>
+          <h6  >Classes</h6>
         </div>
     </div>
 
-    <div class="bottomDiv">
-      <div class="gridDiv">
-        <div class ="box" *ngFor="let item of menu" onclick="goToPage
-        (item.menu_id)">
-          <img src="../../../assets/{{item.image}}" />
-          <p>{{item.title}}</p>
-        </div> 
-      </div>
-    </div>
-    <div class="nav">
-      <ul> 
-
-      </ul>
-    </div>
-    <!--<ion-tabs>  
-      <ion-tab-bar slot="bottom" color="light">  
-        <ion-tab-button tab="contact">  
-          <ion-icon name="contacts"></ion-icon>  
-          <ion-label>Contact</ion-label>  
-          <ion-badge>6</ion-badge>  
-        </ion-tab-button>  
-          
-        <ion-tab-button tab="map">  
-          <ion-icon name="map"></ion-icon>  
-          <ion-label>Map</ion-label>  
-        </ion-tab-button>  
-          
-        <ion-tab-button tab="mail">  
-          <ion-icon name="mail"></ion-icon>  
-          <ion-label>Mail</ion-label>  
-          <ion-badge>10</ion-badge>  
-        </ion-tab-button>  
-      </ion-tab-bar>  
-    </ion-tabs>  
-  </ion-content> -->
-
+    
+  
+</ion-content> 
   
 

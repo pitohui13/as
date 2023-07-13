@@ -2,26 +2,26 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-dashboard',
-  templateUrl: './dashboard.page.html',
-  styleUrls: ['./dashboard.page.scss'],
+  templateUrl: './dashboard2.page.html',
+  styleUrls: ['./dashboard2.page.scss'],
 })
-export class DashboardPage implements OnInit {
+export class Dashboard2Page implements OnInit {
 menu:any = [
   {
     "menu_id": "1",
     "image": "lesson.png",
-    "title": "View Assignments"
+    "title": "Upload Assignment"
   },
   {
     "menu_id": "2",
     "image": "q.png",
-    "title": "Answer Quiz"
+    "title": "Upload Quiz"
 
   },
   {
     "menu_id": "3",
     "image": "student.png",
-    "title": "View Classmates"
+    "title": "View Class/Students"
   },
   
 

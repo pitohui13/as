@@ -1,0 +1,85 @@
+<ion-menu class = "menu-background" contentId="main-content">
+  <ion-header>
+    <ion-toolbar>
+      <ion-title>Content</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content > <ion-menu-toggle>
+    <ion-button  class="menu-content" [routerLink]="['/studentlist']" color="success">Student List</ion-button>
+    <ion-button  class="menu-content" [routerLink]="['/home']" color="success">Sign out</ion-button>
+    
+  </ion-menu-toggle></ion-content>
+ 
+</ion-menu>
+<div class="ion-page" id="main-content">
+  <ion-header>
+    <ion-toolbar>
+      <ion-buttons slot="start">
+        <ion-menu-button></ion-menu-button>
+        
+      </ion-buttons>
+      <ion-title>Dashboard</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content class="ion-padding">
+    
+    <div class="top">
+      <div class="nameText">
+          <p>Welcome <br> <span>Prof. Jason</span></p>
+          <h6>Masters in Information Technology</h6>
+          <small>SY: 2023-2024</small>
+      </div>
+
+      <div class="ImageThumbnail">
+          <img src="../../../assets/me.jpg" />
+      </div>
+    </div>
+    <div class="middleBox">
+        <div class="firstDiv">
+          <img src="../../../assets/boy.png">
+          <p>100%</p>
+          <h6>Attendance</h6>
+        </div>
+        <div class="secondDiv">
+          <img src="../../../assets/check.png">
+          <p>Enrolled</p>
+          <h6>Classes</h6>
+        </div>
+    </div>
+
+    <!--<div class="bottomDiv">
+      <div class="gridDiv">
+        <div class ="box" *ngFor="let item of menu" onclick="goToPage
+        (item.menu_id)">
+          <img src="../../../assets/{{item.image}}" />
+          <p>{{item.title}}</p>
+        </div> 
+      </div>
+    </div> -->
+
+    <ion-footer>
+      <ion-tabs class="bottab">  
+        <ion-tab-bar slot="bottom" color="light">  
+          <ion-tab-button tab="accessibility-outline" [routerLink]="['/studentlist']">  
+            <ion-icon name="accessibility-outline"></ion-icon>
+            <ion-label>Student List</ion-label>  
+            <ion-badge>6</ion-badge>  
+          </ion-tab-button>  
+            
+          <ion-tab-button tab="cloud-upload-outline">  
+            <ion-icon name="cloud-upload-outline"></ion-icon>  
+            <ion-label>Upload</ion-label>  
+          </ion-tab-button>  
+            
+          <ion-tab-button tab="book-outline">  
+            <ion-icon name="book-outline"></ion-icon>  
+            <ion-label>Quiz</ion-label>  
+            <ion-badge>10</ion-badge>  
+          </ion-tab-button>  
+        </ion-tab-bar>  
+      </ion-tabs>  
+    </ion-footer>
+    
+
+  
+

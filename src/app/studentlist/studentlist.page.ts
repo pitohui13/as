@@ -27,7 +27,7 @@ export class StudentlistPage implements OnInit {
     const { role } = await popover.onDidDismiss();
   }
   goBack(){
-    this.router.navigate(['dashboard']);
+    this.router.navigate(['dashboard2']);
   }
     
 }
