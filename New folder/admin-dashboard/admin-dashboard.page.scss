@@ -1,7 +1,3 @@
-.menu-button{
-    width: 80%;
-    border-radius: 40px;
-}
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 ion-content{
     font-family: sans-serif;
@@ -28,7 +24,7 @@ ion-content{
     .ImageThumbnail{
         position: absolute;
         display: flex;
-        width:100px ;
+        width:100 ;
         height: 100px;
         margin-top: 70px;
         margin-left: 25px;
@@ -89,10 +85,107 @@ ion-content{
             }
         }
     }
-    .list{
-   
-        margin-top: 10%;
-        margin-left: 0%;
-        width: 95%;
-        margin-bottom: 10%;
+    .middleBox{
+        color: black;
+        position: absolute;
+        width: 150px ;
+        height: 100px ;
+        top: 270px;
+        object-position: center ;
+        margin-top: 20px;
+        margin-left: 10px;
+        box-shadow: 3px 3px 3px 2px #166b1d;
+      
+    }
+    .firstDiv{
+        position: absolute;
+        height: 145px;
+        background-color: #fff;
+        width: 100%;
+        border-radius: 10px;
+        border: 3px solid #08490b;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        background-image: linear-gradient(120deg, #00ad0e 0%, #ffffff  100%);
+
+       
+        p{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+             font-size: 50px;
+             font-weight: bold;
+             margin-top: 5px;
+         }
+         h5{
+             margin-top: -50px;
+             margin-bottom: 10px;
+             color: #000000;
+         }
+    }
+    .secondDiv{
+        color: black;
+        position: absolute;
+        height: 145px;
+        background-color: #fff;
+        width: 145px;
+        border-radius: 10px;
+        border: 3px solid #08490b;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0px;
+        margin-left:180px ;
+        background-image: linear-gradient(120deg, #00ad0e 0%, #f8faf8 100%);
+
+        
+        p{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+             font-size: 50px;
+             font-weight: bold;
+             margin-top: 5px;
+         }
+         h5{
+             margin-top: -50px;
+             margin-bottom: 10px;
+             color: #000000;
+         }
+
+    
+    }
+    .thirdDiv{
+        color: black;
+        position: absolute;
+        height: 145px;
+        background-color: #fff;
+        width: 215%;
+        border-radius: 10px;
+        border: 3px solid #08490b;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        margin-top: 170px;
+        margin-left:0px ;
+        background-image: linear-gradient(120deg, #00ad0e 0%, #f8faf8 100%);
+
+        
+        p{
+           font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 60px;
+            font-weight: bold;
+            margin-top: 5px;
         }
+        h5{
+            margin-top: -50px;
+            margin-bottom: 10px;
+            color: #000000;
+        }
+
+    
+    }
+   
